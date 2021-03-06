@@ -1,0 +1,5 @@
+    81  2nd_john         63.8 
+    84  clair            38.4 
+   118  2nd_leo          34.2 
+   233  jinny            78.5 
+   321  james            88.2 
