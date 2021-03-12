@@ -6,6 +6,11 @@ int& RefRetFuncOne( int& ref ){
     ref++;
     return ref;
 }
+
+/*int& f(int x){
+    int y=x+20;
+    return y;
+}*/
  
 int main(){
     int num1 = 1;
@@ -16,6 +21,10 @@ int main(){
 
     cout << num1 << endl;
     cout << num2 << endl;
+
+    //////////////////////////
+    /*int &d=f(num1);
+    cout <<"d="<< d << endl;*/
 
     return 0;
 }

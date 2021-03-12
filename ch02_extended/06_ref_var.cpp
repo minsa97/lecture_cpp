@@ -12,6 +12,10 @@ int main(){
 
     cout << &num1 << endl;
     cout << &num2 << endl;
+
+    /////////////////////////////////
+    //int &x;
+    //int &x=10;
     
     return 0;
 }

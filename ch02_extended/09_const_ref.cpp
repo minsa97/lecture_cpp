@@ -2,6 +2,7 @@
 #include <iostream>
 using namespace std;
 int Adder( const int &num1, const int &num2);
+//int Adder( int num1, int num2);
 
 int main(){
     // 제대로된 참조
@@ -13,6 +14,11 @@ int main(){
 
     // 함수에서 임시변수 전달
     cout << Adder( 1, 2 ) << endl;
+
+    // 문제유발
+    int x=10, y=20;
+    cout << Adder( x, y ) << endl;
+
 
     return 0;
 }
