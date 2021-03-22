@@ -8,11 +8,11 @@ class CRefTest{
     int &data;
 public:
     // 참조형 멤버는 반드시 생성자 초기화 목록을 이용해 초기화한다.
-    //CRefTest(int &x) : data(x) { };
+    CRefTest(int &x) : data(x) { };
     /*CRefTest(int &x){
         data=x;
     }*/
-    CRefTest(int x) : data(x) { };
+    //CRefTest(int x) : data(x) { };
     int GetData(void) { return data; } 
 };
  

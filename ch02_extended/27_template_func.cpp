@@ -3,8 +3,7 @@
 #include <iostream>
 using namespace std;
 
-#include <iostream>
-using namespace std;
+
  
 template <class T1, class T2>
 void ShowData(double num){
