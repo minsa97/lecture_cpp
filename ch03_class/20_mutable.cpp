@@ -14,7 +14,7 @@ public:
         return x;
     }
  
-    int SetData(int n) { x = n; }
+    void SetData(int n) { x = n; }
  
 private:
     mutable int x = 0;
