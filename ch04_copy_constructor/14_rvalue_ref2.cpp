@@ -3,6 +3,7 @@
 #include <iostream>
 using namespace std;
 
+//void test1(const int &rParam){
 void test1(int &rParam){
 	cout << "test(int &)" << endl;
 }

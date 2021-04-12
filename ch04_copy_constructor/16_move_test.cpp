@@ -47,5 +47,5 @@ int main(){
     double msec2=1000.*(ed2-st2)/CLOCKS_PER_SEC;
     cout<<"Move 시간: "<<msec2<<" ms"<<endl;
 
-    
+    return 0;
 }
